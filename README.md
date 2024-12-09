@@ -17,5 +17,15 @@ Given the initial information, we know that the compromise started with a phishi
     The manual way uses command-line tools such as cat, grep, base64, and sed. Analyse the contents manually and build the attachment by decoding the string located at the bottom of the file.
 
 <div>
-<img src="" />
+<img src="https://github.com/Modern-Wizard/-Email-Analysis-Look-at-that-headers-/blob/main/ss4.png" />
 </div>
+
+    An alternative and easier way to do this is to double-click the EML file to open it via Thunderbird. The attachment can be saved and extracted accordingly.
+
+Once the payload from the encrypted archive is extracted, use lnkparse to extract the information inside the payload.
+
+<div>
+<img src="https://github.com/Modern-Wizard/-Email-Analysis-Look-at-that-headers-/blob/main/ss3.png" />
+</div>
+
+
